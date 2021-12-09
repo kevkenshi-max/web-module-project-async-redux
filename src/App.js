@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Characters from './components/Characters';
 
-function App() {
+function App(props) {
+
   return (
     <div className="App">
-      Async Redux Project
+      <Header />
+      <Characters />
     </div>
   );
 }
